@@ -1,32 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
+
 }
 
-nav{
+nav {
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 5rem ;
+    padding: 1rem 5rem;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     position: sticky;
     top: 0;
-    
+
 }
-nav #logo-image{
+
+nav #logo-image {
     /* width: 30px; */
     height: 30px;
 }
-nav #things ul{
+
+nav #things ul {
     list-style-type: none;
     display: flex;
     gap: 3rem;
     align-items: center;
 }
-#hero-section{
+
+#hero-section {
     display: flex;
     max-width: 100%;
     background-color: black;
@@ -35,12 +38,13 @@ nav #things ul{
     max-height: 80vh;
     overflow: hidden;
 
-    
-   
 
-    
+
+
+
 }
-#hero-text{
+
+#hero-text {
     width: 50%;
     padding-top: 5rem;
     /* font-size: 3rem;  */
@@ -52,29 +56,34 @@ nav #things ul{
     font-family: 'Roboto', sans-serif;
     color: #00A856;
 }
-#hero-image{
-    
+
+#hero-image {
+
     width: 50%;
     height: 50%;
 }
-#hero-text p{
+
+#hero-text p {
     font-size: 1.5em;
     font-family: 'Montserrat', sans-serif;
     padding-top: 2rem;
 }
-.container{
+
+.container {
     max-width: 100%;
     padding: 0 4rem;
-    
+
 }
-#butt{
+
+#butt {
     display: flex;
     align-items: center;
     gap: 2rem;
     margin-top: 3rem;
-    
+
 }
-.butt{
+
+.butt {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -84,14 +93,36 @@ nav #things ul{
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     transition: 1s;
-    
-}
-.butt:hover{
-    background-color:   #00A856;
 
 }
+
+.butt:hover {
+    background-color: #00A856;
+}
+#img-1{
+    width: 20rem ;
+}
+.pls{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 3rem;
+   margin-left: -3rem;
+   gap: 6rem;
+}
+#size{
+    font-size: 3rem;
+    font-weight: 3rem;
+    margin-left: 6rem;
+    
+}
+#pp{
+    font-size: 20px;
+}
+
+
 
 
 /* font-family: ;
 font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif; */
+font-family: 'Roboto', sans-serif;

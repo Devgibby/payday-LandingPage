@@ -1,128 +1,712 @@
-* {
-    margin: 0;
-    padding: 0;
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
 
-}
+    }
 
-nav {
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 5rem;
+    nav {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 5rem;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        position: sticky;
+        top: 0;
+
+    }
+
+    nav #logo-image {
+        /* width: 30px; */
+        height: 30px;
+    }
+
+    nav #things ul {
+        list-style-type: none;
+        display: flex;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    #hero-section {
+        display: flex;
+        max-width: 100%;
+        background-color: black;
+        color: white;
+        padding-top: 3rem;
+        max-height: 80vh;
+        overflow: hidden;
+
+
+
+
+
+    }
+
+    #hero-text {
+        width: 50%;
+        padding-top: 5rem;
+        /* font-size: 3rem;  */
+    }
+
+
+    #hero-text h1 {
+        font-size: 4.5rem;
+        font-family: 'Roboto', sans-serif;
+        color: #00A856;
+    }
+
+    #hero-image {
+
+        width: 50%;
+        height: 50%;
+    }
+
+    #hero-text p {
+        font-size: 1.5em;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 2rem;
+    }
+
+    .container {
+        padding: 0 4rem;
+
+    }
+
+    #butt {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 3rem;
+
+    }
+
+    .butt {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        border-radius: 5rem;
+        padding: 8px 10px;
+        transition: 0.2;
+        font-size: 1em;
+        font-family: 'Montserrat', sans-serif;
+        transition: 1s;
+
+    }
+
+    .butt:hover {
+        background-color: #00A856;
+    }
+
+    #img-1 {
+        width: 20rem;
+    }
+
+    .pls {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3rem;
+        margin-left: -3rem;
+        gap: 6rem;
+    }
+
+    #size {
+        font-size: 3rem;
+        font-weight: 3rem;
+        margin-left: 6rem;
+
+    }
+
+    #pp {
+        font-size: 20px;
+    }
+
+    .bank {
+        /* width: 50rem; */
+        margin-bottom: 3rem;
+    }
+
+    #usd {
+        font-size: 30px;
+        margin-top: 2rem;
+    }
+
+    #from {
+        font-size: 20px;
+        margin-top: 3rem;
+    }
+
+    #pay {
+        margin-top: 3rem;
+    }
+
+    .high {
+
+        color: white;
+
+    }
+
+    #swee {
+        width: 30rem;
+    }
+
+    #high {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2rem;
+        background-color: #00A856;
+        width: 60%;
+        height: 170%;
+        margin-left: 20rem;
+    }
+
+    #pay {
+        background-color: white;
+        color: black;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 7px;
+    }
+
+    #shape {
+        width: 30rem;
+    }
+
+    #low {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        width: 60%;
+        height: 170%;
+        margin-left: 20rem;
+        border-radius: 2rem;
+        margin-top: 3rem;
+
+    }
+
+    #glo {
+        color: white;
+        font-size: 30px;
+        margin-top: 2rem;
+    }
+
+    #spe {
+        color: white;
+        font-size: 20px;
+        margin-top: 2rem;
+    }
+
+    #ahh {
+        margin-left: 3rem;
+    }
+
+    #card {
+        background-color: #EFF1F7;
+        width: 33rem;
+        height: 45rem;
+        border-radius: 3rem;
+        margin-left: 2rem;
+        margin-top: 6rem;
+    }
+
+    #card-img {
+        width: 50%;
+        /* height: 70%; */
+        margin-left: 5rem;
+        margin-top: 1rem;
+    }
+
+    #cash {
+        font-size: 2.5rem;
+        margin-top: 16rem;
+        margin-left: 6rem;
+    }
+
+    #who {
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        margin-left: 6rem;
+    }
+
+    .card-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+    }
+
+    #wait {
+        background-color: black;
+        width: 60rem;
+        height: 35rem;
+        border-radius: 5rem;
+    }
+
+    #but-1 {
+        /* display: flex;
+    justify-content: center;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
-    position: sticky;
-    top: 0;
+    border-radius: 25px;
+    background-color: white;
+    width: 11rem;
+    height: 3rem;
+    transition: 2s; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-}
+    }
 
-nav #logo-image {
-    /* width: 30px; */
-    height: 30px;
-}
+    #but-1:hover {
+        color: white;
+        background-color: green;
 
-nav #things ul {
-    list-style-type: none;
-    display: flex;
-    gap: 3rem;
+    }
+
+    #but-2 {
+        /* display: flex;
+    justify-content: center;
     align-items: center;
-}
+    border-radius: 25px;
+    background-color: white;
+    width: 11rem;
+    height: 3rem;
+    transition: 2s; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 2s;
 
-#hero-section {
-    display: flex;
-    max-width: 100%;
-    background-color: black;
-    color: white;
-    padding-top: 3rem;
-    max-height: 80vh;
-    overflow: hidden;
+    }
+
+    #cain {
+        font-size: 15px;
+    }
+
+    #but-2:hover {
+        color: white;
+        background-color: green;
+
+    }
+
+    #butimg-1 {
+        margin-right: 1rem;
+    }
+
+    #wait {
+        margin-left: 20rem;
+        margin-top: 3rem;
+    }
+
+    #shii {
+        margin-left: 7rem;
+       padding-top: 9rem;
+      
+        /* padding: 13rem 5rem; */
+    }
+
+    #down {
+        font-size: 2.5rem;
+        color: white;
+    }
+
+    .hel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 6rem;
+        margin-top: 4rem;
+        gap: 3rem;
+    }
+
+    #last {
+        width: 9rem;
+        gap: 4rem;
+        height: 3rem;
+    }
+
+    #last-1 {
+        width: 9rem;
+        height: 5rem;
+    }
+
+    #imgg {
+        margin-left: 15rem;
+    }
+
+    #as {
+        margin-left: 40rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    #in {
+        font-size: 3rem;
+    }
+
+    #logo-footer {
+        width: 10rem;
+        background-color: black;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #dotted {
+
+        border-style: dotted;
+
+    }
+
+    .foot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: black; */
+        /* color: white; */
+    }
+
+    /* .section{
+        opacity: 1;
+        transform: translateY(20px);
+        transition: opacity 1s, transform 1s ;
+
+    }
+    .section.show{
+        opacity: 1;
+        transform: translateY(0);
+    } */
+
+
+    /* Media Query for phone size */
+
+
+
+    @media screen and (max-width: 768px) {
+
+
+        
+        .body{
+           margin: 0;
+            padding: 0;
+        }
+
+
+        nav {
+            background-color: black;
+            padding: 1rem;
+            position: sticky;
+            color: white;
+            max-width: 30rem;
+           overflow: hidden;
+            
+        }
+        #telegram{
+            display: none;
+            overflow: hidden;
+        }
+
+        #things{
+
+            display: none;
+            overflow: hidden;
+        }
+        nav #logo #logo-image {
+            width: 7rem;
+            height: 25px;
+            padding-left: 0.5rem;
+            overflow: hidden;
+
+        }
+
+        #logo {
+
+            padding-right: 15rem;
+        }
+
+        #hero-text {
+           margin-left: 1rem;
+        }
+        #hero-section {
+            display: flex;
+            max-width: 100%;
+            background-color: black;
+            color: white;
+            padding-top: 3rem;
+            max-height: 80vh;
+           
+        }
+
+        #hero-text h1 {
+            font-size: 2rem;
+            font-weight: bolder;
+            font-family: 'Roboto', sans-serif;
+            white-space: pre-line;
+            word-break: break-all;
+            padding: 0;
+        }
+
+        #hero-text p {
+            font-size: 5vw;
+            font-weight: bolder;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+
+        #hero-image {
+            display: none;
+        }
+
+        .butt {
+            font-size: 10px;
+            width: 125px;
+            height: 3rem;
+
+
+        }
+
+        .pls {
+            display: initial;
+        }
+
+        #size {
+            font-size: 1.5rem;
+            margin-left: 7rem;
+            white-space: pre-line;
+            word-break: break-all;
+        }
+
+        #pp {
+            font-size: 13px;
+            word-break: break-all;
+            white-space: pre-line;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            text-align: center;
+            margin-right: 5rem;
+        }
+
+        #img-1 {
+            margin-left: 1rem;
+            max-width: 17rem;
+        }
+
+        #high {
+            margin: 1rem;
+            width: 16rem;
+        }
+
+        #swee {
+            display: none;
+        }
+
+        #bank {
+            width: 2rem;
+            margin-top: 2rem;
+            margin-left: 1.5rem;
+        }
+
+        #usd {
+            font-size: 1rem;
+            margin-left: 15px;
+        }
+
+        #from {
+            font-size: 0.7rem;
+            word-break: break-all;
+            white-space: pre-line;
+            margin-left: 15px;
+        }
+
+        #pay {
+            margin-bottom: 1rem;
+            margin-left: 15px;
+            
+        }
+
+        #low {
+            margin: 1rem;
+            width: 16rem;
+        }
+
+        #shape {
+            display: none;
+        }
+
+        #glo {
+            font-size: 1rem;
+            margin-right: 8rem;
+        }
+        #spe{
+            font-size: 0.7rem;
+        }
+        #pays{
+            border-radius: 10px;
+        }
+
+        .card-1 {
+            display: initial;
+            gap: 0;
+        }
+
+        #card {
+            width: 16rem;
+            height: 40rem;
+            margin: 1rem;
+        }
+
+        #cash {
+            font-size: 2rem;
+            margin: 0;
+            word-break: break-all;
+            white-space: pre-line;
+        }
+
+        #who {
+            font-size: 1rem;
+            margin: 0;
+        }
+
+        #cow {
+            text-align: center;
+            margin-top: 18rem;
+        }
+        #card-img{
+            width: 12rem;
+            margin-left: 1.5rem;
+        }
+        #wait h1{
+          margin-top: -10rem;
+          font-size: 10px;
+          /* margin-right: 5rem;
+          padding-right: 10rem; */
+           
+            
+        }
+        #shii{
+            margin-right: 15rem;
+            padding-right: 10rem;
+            padding-top: 15em;
+        }
+
+        #wait{
+            margin: 1rem;
+            width: 16rem;
+            height: 25rem;
+            text-align: center;
+        }
+
+        #down{
+           position: absolute;
+           margin-right: 14rem;
+           white-space: pre-line;
+           
+        }
+
+        section #shii{
+           
+        }
+        #wait button h3{
+            font-size: 8px;
+            margin-right: 10px;
+            margin-top: 5px;
+            
+        }
+
+        #wait button img{
+            width: 15px;
+        }
+
+        #wait button{
+            width: 7rem;
+            height: 2.2rem;
+            border-radius: 10px;
+           
+        }
+        #hel{
+            display: initial;
+            padding-left: 30rem;
+        }
+        #but-1{
+            margin-left: 6rem;
+        }
+        #in{
+            font-size: 20px;
+        }
+        #as{
+            margin-left: 5rem;
+            margin-top: -0;
+        }
+        #imgg{
+            margin-left: 2rem;
+            display: grid;
+            grid-template-columns: 0.5fr 0.5fr ;
+        }
+        #last{
+            width: 4rem;
+            height: 3rem;
+            grid-column-gap: 0;
+        }
+        footer{
+            
+            display: initial;
+            
+           
+        }
+        footer li{
+            list-style-type: none;
+            color: white;
+            white-space: pre-line;
+        }
+        .footer-logo{
+            display: none;
+
+            
+        }
+        .footer{
+            display: initial;
+            margin: 0;
+            
+        }
+        .foot{
+            display: initial;
+            margin: 0;
+            /* background-color: black; */
+            
+        }
+        .lisst{
+             display: initial;
+             margin: 0;
+             margin-left: 30rem;
+        }
+
+        #foot{
+            background-color: black;
+            width: 19rem;
+        }
+        .foot h2{
+            color: white;
+            margin-left: 1rem;
+        }
+    }
 
 
 
 
-
-}
-
-#hero-text {
-    width: 50%;
-    padding-top: 5rem;
-    /* font-size: 3rem;  */
-}
-
-
-#hero-text h1 {
-    font-size: 4.5rem;
-    font-family: 'Roboto', sans-serif;
-    color: #00A856;
-}
-
-#hero-image {
-
-    width: 50%;
-    height: 50%;
-}
-
-#hero-text p {
-    font-size: 1.5em;
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 2rem;
-}
-
-.container {
-    max-width: 100%;
-    padding: 0 4rem;
-
-}
-
-#butt {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin-top: 3rem;
-
-}
-
-.butt {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    border-radius: 5rem;
-    padding: 8px 10px;
-    transition: 0.2;
-    font-size: 1em;
-    font-family: 'Montserrat', sans-serif;
-    transition: 1s;
-
-}
-
-.butt:hover {
-    background-color: #00A856;
-}
-#img-1{
-    width: 20rem ;
-}
-.pls{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin: 3rem;
-   margin-left: -3rem;
-   gap: 6rem;
-}
-#size{
-    font-size: 3rem;
-    font-weight: 3rem;
-    margin-left: 6rem;
     
-}
-#pp{
-    font-size: 20px;
-}
 
-
-
-
-/* font-family: ;
+    /* font-family: ;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
